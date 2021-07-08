@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "animated_text_kit",
+      "rootUri": "file:///C:/Users/mihae/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/animated_text_kit-4.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///C:/Users/mihae/Documents/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1",
       "packageUri": "lib/",
@@ -146,7 +152,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-05-30T17:58:17.543044Z",
+  "generated": "2021-07-08T02:10:36.939608Z",
   "generator": "pub",
-  "generatorVersion": "2.13.1"
+  "generatorVersion": "2.13.4"
 }

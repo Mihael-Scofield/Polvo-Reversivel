@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:polvoreversivel/ui/pages/splashScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -59,7 +60,7 @@ class MyApp extends StatelessWidget {
         //    primaryColor: Color.fromRGBO(0, 98, 152, 1),
         //    accentColor: Color.fromRGBO(0, 178, 169, 1)),
         
-        //home: SplashScreen(),
+        home: SplashScreen(),
         );
   }
 }
