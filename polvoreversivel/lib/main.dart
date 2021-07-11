@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:polvoreversivel/ui/pages/splashScreen.dart';
+
+import 'bloc/main_page/main_page_bloc.dart';
+import 'ui/pages/mainScreen.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -24,10 +29,10 @@ class MyApp extends StatelessWidget {
         //   GlobalCupertinoLocalizations.delegate,
         // ],
         routes: {
-          //'/mainPage': (context) => BlocProvider(
-          //    create: (context) =>
-          //        MaingPageBloc(maingPageRepository: MaingPageRepositoryImpl()),
-          //    child: MaingPagePage()),
+          '/MainScreen': (context) => BlocProvider(
+              create: (context) =>
+                  MainScreenBloc(),
+              child: MainScreen()),
         },
         title: 'PolvoReversivel',
         //theme: ThemeData(

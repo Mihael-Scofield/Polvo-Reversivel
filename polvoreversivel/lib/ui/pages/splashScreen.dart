@@ -11,14 +11,14 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
-  //@override
-  //void initState() {
-  //  super.initState();
-  //  Future.delayed(Duration(seconds: 5)).then((_) async {
-  //    await Navigator.of(context)
-  //        .pushNamedAndRemoveUntil('/mainPage', (Route<dynamic> route) => false);
-  //  });
-  //}
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(Duration(seconds: 5)).then((_) async {
+      await Navigator.of(context).pushNamedAndRemoveUntil(
+          '/MainScreen', (Route<dynamic> route) => false);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -36,18 +36,18 @@ class _SplashScreenState extends State<SplashScreen> {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-              child: TextLiquidFill(
-                text: 'Para Bia',
-                waveColor: Color(0xff000000),
-                boxBackgroundColor: Color(0xff00AEEF),
-                textStyle: TextStyle(
-                  fontSize: 40.0,
-                  fontWeight: FontWeight.bold,
-                ),
-                boxHeight: 80,
-                loadDuration: Duration(seconds: 4),
+            child: TextLiquidFill(
+              text: 'Para Bia',
+              waveColor: Color(0xff000000),
+              boxBackgroundColor: Color(0xff00AEEF),
+              textStyle: TextStyle(
+                fontSize: 40.0,
+                fontWeight: FontWeight.bold,
               ),
-            )
+              boxHeight: 80,
+              loadDuration: Duration(seconds: 4),
+            ),
+          )
         ],
       ),
     );
