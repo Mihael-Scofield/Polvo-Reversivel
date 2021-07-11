@@ -1,0 +1,4 @@
+#Sun Jul 11 00:43:37 BRT 2021
+base.0=C\:\\Users\\mihae\\Centro\\Programacao\\Polvo-Reversivel\\polvoreversivel\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
